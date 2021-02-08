@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/*LAYOUT*/
+body{
+    background-color: #222222;
+}
+
+.div-text{
+    float: left;
+}
+
+/*TEXT*/
+h1 { 
+    font-family: 'Allerta Stencil'; 
+    font-size: 80px; 
+    color: #32CD32;
+    margin-top: 25%;
+    position: relative;
+   margin-left: 60%;
+}
+
+h2{
+    position: relative;
+    margin-top: -35%; /*top, rigth, left, bottom */
+    padding-left: 135%;
+    font-family: 'Allura';
+    color: #ffffff;
+    font-size: 60px;
+}
+
+
+h3{
+    color: #848181;
+    font-family: 'Noto Sans';
+    font-size: 25px;
+    margin-top: 10%;
+    margin-left: 28%;
+}
+
+/*INPUT*/
+input{
+    background-color: transparent;
+    background: #222222;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+    /* width: 738px;
+    height: 54px; */
+    width: 58%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 20%;
+    margin-top: 2%;
+    float: left;
+  
+}
+
+
+/*IMAGE*/
+.img-one{
+    position: relative;
+    float: left;
+    transform: rotate(162.46deg);
+    height: 30%;
+    width: 30%;
+    margin-top: -4%;
+    margin-left: -7%;
+}
+
+.img-two{
+    transform: rotate(-61.36deg);
+    width: 15%;
+    height: 15%;
+    margin-left: 37%;
+    margin-top: -1%;
+}
+
+.copy{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-image: url("../assets/copy.png");
+    left: 980px;
+    top: 382px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.copy:focus{
+    outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
+    .copy:focus {
+     outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
+
+    
+.copy-two{
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.copy-two:hover{
+    color: #ffffff;
+}
+
+.img-tree{
+    height: 50%;
+    width: 50%;
+    margin-left: -110%;
+    margin-top: -8%;
+    float: left;
+    transform: rotate(-37.57deg);
+}
+
+.img-four{
+    position: absolute;
+    width: 466.23px;
+    height: 428.75px;
+    left: 800px;
+    top: 450px;
+    transform: rotate(-95.23deg);
+}
+
+.img-five{
+    position: absolute;
+    width: 94.09px;
+    height: 83.77px;
+    left: 1169.58px;
+    top: 700px;
+    transform: rotate(-95.23deg);
+}
+
+
+
+
+/*RESPONSIVE*/
+
+/*mobile*/
+
+  @media only screen and (max-device-width: 900px) {
+    .img-two{
+        margin-left: 25%;
+      } 
+
+      h3{
+        margin-top: 40%;
+        font-size: 80px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+
+  
